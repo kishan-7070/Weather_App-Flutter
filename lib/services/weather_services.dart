@@ -2,7 +2,7 @@ import 'package:weather_app/models/weather_model.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 class WeatherServices {
-  final String apiKey = 'e5072a09ec40a19f609dfec1f8033b47';
+  final String apiKey = '';
 
   Future<Weather> fetchWeather(String cityName) async{
 
